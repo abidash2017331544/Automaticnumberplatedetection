@@ -13,13 +13,6 @@ Hope you like it.
 !pip install imutils
 ---- 
 
-
-----
-!pip install easyocr
-----
-
-
-
 ----
 import cv2
 from matplotlib import pyplot as plt
@@ -115,18 +108,4 @@ font = cv2.FONT_ITALIC
 res = cv2.putText(img, text=text, org=(approx[0][0][0], approx[0][0][0]), fontFace=font, fontScale=1, color=(100,100,255), thickness=3, lineType=cv2.LINE_AA)
 res = cv2.rectangle(img, tuple(approx[0][0]), tuple(approx[2][0]), (5,25,255),6)
 plt.imshow(cv2.cvtColor(res, cv2.COLOR_BGR2RGB))
-----
-
-
-
-[source, ipython3]
-----
-
-----
-
-
-
-[source, ipython3]
-----
-
 ----
