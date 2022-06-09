@@ -10,14 +10,19 @@ Hope you like it.
 
 ----
 !pip install easyocr
+
 !pip install imutils
 ---- 
 
 ----
 import cv2
+
 from matplotlib import pyplot as plt
+
 import numpy as np
+
 import imutils
+
 import easyocr
 ----
 
