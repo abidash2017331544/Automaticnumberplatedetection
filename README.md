@@ -16,6 +16,7 @@ Install and Import Dependencies
 !pip install imutils
 
 
+
 import cv2
 
 from matplotlib import pyplot as plt
@@ -27,6 +28,7 @@ import imutils
 import easyocr
 
 
+ 
 ----
 Pre-processing
 ----
@@ -94,7 +96,7 @@ cropped_image = gray[x1:x2+1, y1:y2+1]
 
 
 ----
-Easy OCR
+Using Easy OCR
 ----
 
 reader = easyocr.Reader(['en'])
