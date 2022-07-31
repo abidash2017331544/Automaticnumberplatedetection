@@ -29,7 +29,6 @@ import easyocr
 
 
  
-----
 Pre-processing
 ----
 
