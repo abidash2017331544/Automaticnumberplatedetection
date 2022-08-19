@@ -1,4 +1,4 @@
-# Automatic_number_plate_detection
+# Automatic_number_plate_detection_from_image
 Hello.
 This project is a basic idea for automatic number plate detection system using easyocr and python.
 It is done with Jupyter notebook. If u do not know, how to run that or bring that, you need to go to your cmd and install it. then just use jupyter notebook in the cmd. it will open in a browser.
